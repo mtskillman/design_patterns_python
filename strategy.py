@@ -1,4 +1,8 @@
 class Vehicle:
+    '''
+    the essence of what is going here, is that, implementation of the 'move' method is not yet decided, but
+    an interface for it is provided.
+    '''
     def __init__(self, behavior):
         self.behavior = behavior
 
